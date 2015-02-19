@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Comp 350 Lab 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="js/libs/jquery/jquery.js"></script>
+        <script type="text/javascript" src="js/libs/jqueryui/jquery-ui.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/basecss.css">
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#info-list").accordion({
+                    autoHeight: false
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="info-list">
+            
+            <h3><a href="#">Mary Adams</a></h3>
+            <div>
+                <img src="pix/maryadams.jpg" alt="Mary Adams" />
+                <ul>
+                    <li><h4>Vice President</h4></li>
+                    <li><h4><b>phone:</b> x8234</h4></li>
+                    <li><h4><b>office:</b> 102 Bldg 1</h4></li>
+                    <li><h4><b>email:</b> m.adams@company.com</h4></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            
+            <h3><a href="#">Sam Jackson</a></h3>
+            <div>
+                <img src="pix/samjackson.jpg" alt="Sam Jackson" />
+                <ul>
+                    <li><h4>Deputy Assistant</h4></li>
+                    <li><h4><b>phone:</b> x3494</h4></li>
+                    <li><h4><b>office:</b> 457 Bldg 2</h4></li>
+                    <li><h4><b>email:</b> s.jackson@company.com</h4></li>
+                </ul>
+                <br clear="all" />
+            </div>
+            
+            <h3><a href="#">Jennifer Brooks</a></h3>
+            <div>
+                <img src="pix/jeniferapplethwaite.jpg" alt="Jenifer Applethwaite" />
+                <ul>
+                    <li><h4>Senior Technician</h4></li>
+                    <li><h4><b>phone:</b> x9430</h4></li>
+                    <li><h4><b>office:</b> 327 Bldg 2</h4></li>
+                    <li><h4><b>email:</b> j.brooks@company.com</h4></li>
+                </ul>
+                <br clear="all" />
+            </div>
+        </div>
+    </body>
+</html>

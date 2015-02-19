@@ -1,0 +1,34 @@
+/* 
+    Created on : Feb 18, 2015, 7:00:11 PM
+    Author     : sakwaa
+*/
+
+ul {
+    list-style-type: none
+}
+
+img {
+    margin-right: 20px; 
+    float:left; 
+    border: 1px solid;
+}
+
+.ui-accordion-header {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+    h3 a {
+        text-decoration: none;
+    }
+}
+
+#info-list {
+    h3 {
+        margin: 0;
+    }
+}
+
+.ui-accordion-content {
+    background-color: grey;
+    
+}
